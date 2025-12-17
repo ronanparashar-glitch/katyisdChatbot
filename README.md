@@ -2,7 +2,7 @@
 
 A Streamlit app that answers questions about the Katy ISD website using Retrieval-Augmented Generation (RAG). It ingests local documents, builds a FAISS index with bge embeddings, retrieves the most relevant chunks, and generates grounded answers with Mistral-7B-Instruct.
 
-- Author: Your Name (High School Student)
+- Author: Ronan Parashar (Senior - Jordan High School). Class of 2026
 - Tech: Streamlit, LangChain, FAISS, Hugging Face Transformers, PyTorch
 - Models: BAAI/bge-base-en-v1.5 (embeddings), mistralai/Mistral-7B-Instruct-v0.1 (LLM)
 
@@ -112,5 +112,6 @@ Note on sources: The app internally tracks the retrieved documents for each answ
 
 ## Acknowledgments
 - Streamlit, LangChain, FAISS, Hugging Face, Mistral-7B-Instruct, BAAI bge-base-en
+
 
 
