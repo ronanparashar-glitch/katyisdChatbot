@@ -17,7 +17,7 @@ Requirements:
 
 Setup:
 1) Install dependencies
-   pip install -r requirements.txt
+  - *pip install -r requirements.txt or pip install -r ./requirements.txt --ignore-installed*
 
 2) Create a .env file in the project root
    HUGGINGFACE_TOKEN=your_hf_token_here
@@ -112,6 +112,7 @@ Note on sources: The app internally tracks the retrieved documents for each answ
 
 ## Acknowledgments
 - Streamlit, LangChain, FAISS, Hugging Face, Mistral-7B-Instruct, BAAI bge-base-en
+
 
 
 
