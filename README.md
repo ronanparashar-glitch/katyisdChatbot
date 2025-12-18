@@ -30,7 +30,7 @@ Setup:
 - Place katyisd.jpg in the project root
 
 5) Run the app
-   streamlit run app.py
+   *streamlit run app.py*
 
 On the first run, the app builds a FAISS index from your documents. Subsequent runs reuse the saved index.
 
@@ -112,6 +112,7 @@ Note on sources: The app internally tracks the retrieved documents for each answ
 
 ## Acknowledgments
 - Streamlit, LangChain, FAISS, Hugging Face, Mistral-7B-Instruct, BAAI bge-base-en
+
 
 
 
